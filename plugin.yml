@@ -1,0 +1,16 @@
+name: Nick
+version: 1.0.0
+api: 5.0.0
+main: shelzn\Main
+author: shelzn
+description: Acikkoyak NickUI
+
+commands:
+  nick:
+    description: Change Nickname
+    permission: nick.set
+
+permissions:
+  nick.set:
+    description:
+    default: op
